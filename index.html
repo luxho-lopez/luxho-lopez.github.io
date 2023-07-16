@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Luxho-López</title>
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Luxho</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre mí</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">Portafolio</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECTION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/me-2.jpg" alt="">
+            </div>
+
+            <h1>Alfredo López</h1>
+            <h2>Front-End Developer</h2>
+
+            <div class="redes">
+                <a href="https://www.facebook.com/luxho.lopez" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/luxho_lopez" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://t.me/luxho_lopez" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://www.linkedin.com/in/luxho-lopez/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Alfredo López!</span> Desarrollador web, me dedico a crear sitios web, aplicaciones web y aplicaciones moviles, con el fin de ayudar a las personas a tener una presencia en internet, y asi poder llegar a mas clientes.</p>
+
+            <div class="fila">
+                <!-- Datos Personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +52 932 169 4856
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            alfredo_lopez97@outlook.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            luxho-lopez.github.io
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Pichucalco, Chiapas. México.
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <span>TECNOLOGIA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-palette"></i>
+                            <span>ARTE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button>
+                Descargar CV
+                <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+
+        </div>
+    </section>
+
+    <!-- SETION SKILLS -->
+    <section id="skills" class="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+
+            <div class="fila">
+
+                <!-- Desarrollo-->
+                <div class="col">
+                    <h3>Habilidades técnicas</h3>
+                    
+                    <div class="skill">
+                        <span>HTML5 & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Bootstrap</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Tailwind</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>35%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MySql</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Profesionales -->
+                <div class="col">
+                    <h3>Habilidades profesionales</h3>
+                    
+                    <div class="skill">
+                        <span>Comunicacíon</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>98%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    
+                    <div class="item izq">
+                        <h4>Ingeniería Industrial</h4>
+                        <span class="casa">Tecnológico de la Sierra</span>
+                        <span class="fecha">2015 - 2020</span>
+                        <p>Calidad y Seguridad Industrial</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="col derecha">
+                    <h3>Experiencia</h3>
+                    
+                    <div class="item der">
+                        <h4>Front-End Developer</h4>
+                        <span class="casa">XpectreLabs</span>
+                        <span class="fecha">2021 - 2023</span>
+                        <p>Desarrollo de plataformas web e interfaz de usuario</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION PORTAFOLIO -->
+    <section id="portafolio" class="portafolio">
+        <div class="contenido-seccion">
+            <h2>Portafolio</h2>
+            <div id="proyectos" class="proyectos">
+                <!-- <div id="proyecto" class="proyecto">
+                    <img src="img/proyectos/buscador_imagenes.png" alt="">
+                    <div class="overlay">
+                        <h3>buscador de Imagenes</h3>
+                        <p>Realizado con tecnologia React, Bootstrap para los estilos y conexion a la API de Pixaby</p>
+                        <a href="https://github.com/luxho-lopez/cafe_react_pixabay" target="_blank">Codigo Fuente</a>
+                    </div>
+                </div> -->
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <!-- FORMULARIO -->
+                <div class="col">
+                    <form method="POST" action="https://formspree.io/f/xpzgwada">
+                        <input type="text" name="_nombre" placeholder="Nombre">
+                        <input type="tel" name="_contacto" placeholder="Numero de contacto">
+                        <input type="email" name="_correo" placeholder="Correo electronico">
+                        <input type="text" name="_asunto" placeholder="Asunto">
+                        <textarea name="_mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        
+                        <button type="submit">
+                            Enviar Mensaje
+                            <i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </form>
+                </div>
+                <!-- MAPA -->
+                <div class="col">
+                    <img src="img/location.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-pin"></i>
+                                Dirección: <br>
+                                <span>Pichucalco, Chiapas. Mexico.</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Telefono: <br>
+                                <span>+52 932 169 4856</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Correo: <br>
+                                <span>alfredo_lopez97@outlook.com</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+
+        <div class="redes">
+            <a href="https://www.facebook.com/luxho.lopez" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com/luxho_lopez" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://t.me/luxho_lopez" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+            <a href="https://www.linkedin.com/in/luxho-lopez/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+        <div class="copyright">
+            <p>&copy; Luxho López</p>
+        </div>
+    </footer>
+
+
+    <script src="js/app.js"></script>
+    <script src="js/db.js"></script>
+</body>
+</html>
