@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Moon+Dance&family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
 
 /* 
+    font-family: 'Libre Baskerville', serif;
     font-family: 'Moon Dance', cursive;
     font-family: 'Righteous', cursive;
     font-family: 'Work Sans', sans-serif;
 */
 
 :root {
+    --font-baskerville: 'Libre Baskerville', serif;
     --font-moon_dance: 'Moon Dance', cursive;
     --font-righteous: 'Righteous', cursive;
     --font-work_sans: 'Work Sans', sans-serif;
@@ -41,14 +43,24 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 20px;
+    padding: 0 20px;
 }
 
 .contenedor-header header .logo a {
-    font-family: var(--font-moon_dance);
-    font-size: 48px;
+    position: relative;
+    font-family: var(--font-baskerville);
+    font-size: 72px;
     color: #1CB698;
     text-decoration: none;
+}
+
+.contenedor-header header .logo a span {
+    position: absolute;
+    left: 5px;
+    top: 30px;
+    font-size: 14px;
+    background: #1E2326;
+    padding: 2px 0 5px 0;
 }
 
 .contenedor-header header ul {
