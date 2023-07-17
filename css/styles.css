@@ -49,7 +49,7 @@ html {
 .contenedor-header header .logo a {
     position: relative;
     font-family: var(--font-baskerville);
-    font-size: 72px;
+    font-size: 60px;
     color: #1CB698;
     text-decoration: none;
 }
@@ -57,10 +57,10 @@ html {
 .contenedor-header header .logo a span {
     position: absolute;
     left: 5px;
-    top: 30px;
-    font-size: 14px;
+    top: 25px;
+    font-size: 11px;
     background: #1E2326;
-    padding: 2px 0 5px 0;
+    padding: 1.5px 0 3px 0;
 }
 
 .contenedor-header header ul {
