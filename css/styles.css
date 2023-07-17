@@ -361,16 +361,7 @@ html {
 
     100% {width: 60%;}
 }
-.skills .skill .tailwind {
-    width: 0%;
-    animation: 2s tailwind forwards;
-}
 
-@keyframes tailwind {
-    0% {width: 0%;}
-
-    100% {width: 60%;}
-}
 .skills .skill .react {
     width: 0%;
     animation: 2s react forwards;
@@ -407,6 +398,16 @@ html {
 }
 
 @keyframes comunicacion {
+    0% {width: 0%;}
+
+    100% {width: 80%;}
+}
+.skills .skill .atencioncliente {
+    width: 0%;
+    animation: 2s atencioncliente forwards;
+}
+
+@keyframes atencioncliente {
     0% {width: 0%;}
 
     100% {width: 80%;}

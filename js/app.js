@@ -27,11 +27,11 @@ function efectoHabilidades() {
         habilidades[0].classList.add("htmlcss");
         habilidades[1].classList.add("javascript");
         habilidades[2].classList.add("bootstrap");
-        habilidades[3].classList.add("tailwind");
-        habilidades[4].classList.add("react");
-        habilidades[5].classList.add("php");
-        habilidades[6].classList.add("mysql");
-        habilidades[7].classList.add("comunicacion");
+        habilidades[3].classList.add("react");
+        habilidades[4].classList.add("php");
+        habilidades[5].classList.add("mysql");
+        habilidades[6].classList.add("comunicacion");
+        habilidades[7].classList.add("atencioncliente");
         habilidades[8].classList.add("trabajoequipo");
         habilidades[9].classList.add("creatividad");
         habilidades[10].classList.add("dedicacion");
