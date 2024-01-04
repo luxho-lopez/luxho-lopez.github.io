@@ -17,33 +17,6 @@ function seleccionar() {
     menuVisible = false;
 }
 
-// Funcion que aplica las animaciones de habilidades
-function efectoHabilidades() {
-    let skills = document.getElementById("skills");
-    let distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
-
-    if (distancia_skills >= 300) {
-        let habilidades = document.getElementsByClassName("progreso");
-        habilidades[0].classList.add("htmlcss");
-        habilidades[1].classList.add("javascript");
-        habilidades[2].classList.add("bootstrap");
-        habilidades[3].classList.add("react");
-        habilidades[4].classList.add("php");
-        habilidades[5].classList.add("mysql");
-        habilidades[6].classList.add("comunicacion");
-        habilidades[7].classList.add("atencioncliente");
-        habilidades[8].classList.add("trabajoequipo");
-        habilidades[9].classList.add("creatividad");
-        habilidades[10].classList.add("dedicacion");
-        habilidades[11].classList.add("proyectmanagement");
-    }
-}
-
-// Detectar scrolling para aplicar animacipon
-window.onscroll = function () {
-    efectoHabilidades();
-}
-
 
 
 
