@@ -6,5 +6,12 @@ const proyectos = [
         image: 'img/proyectos/buscador_imagenes.png',
         description: "Realizado con tecnologia React, Bootstrap para los estilos y conexion a la API de Pixaby",
         github: 'https://github.com/luxho-lopez/cafe_react_pixabay',
+    },
+    {
+        id: 2,
+        title: 'Agencia de Viajes',
+        image: 'img/proyectos/agenciadeviajes.png',
+        description: "Realizado con Node, Express y Sequelize",
+        github: 'https://github.com/luxho-lopez/agenciaviajes',
     }
 ];
