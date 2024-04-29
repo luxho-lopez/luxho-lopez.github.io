@@ -13,5 +13,12 @@ const proyectos = [
         image: 'img/proyectos/agenciadeviajes.png',
         description: "Realizado con Node, Express y Sequelize",
         github: 'https://github.com/luxho-lopez/agenciaviajes',
+    },
+    {
+        id: 3,
+        title: 'Cotizador de prestamos',
+        image: 'img/proyectos/cotizador-prestamos.png',
+        description: "Realizado con tecnologia React + Vite y Tailwind CSS",
+        github: 'https://cotizador-pres.netlify.app/',
     }
 ];

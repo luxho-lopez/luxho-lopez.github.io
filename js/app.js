@@ -42,7 +42,7 @@ function mostrarProyectos(proyectos) {
             <div class="overlay">
                 <h3>${title}</h3>
                 <p>${description}</p>
-                <a href="${github}" target="_blank">Código Fuente</a>
+                <a href="${github}" target="_blank">Ver App</a>
             </div>
 
         `;
