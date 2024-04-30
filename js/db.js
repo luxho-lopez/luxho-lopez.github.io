@@ -12,7 +12,7 @@ const proyectos = [
         title: 'Agencia de Viajes',
         image: 'img/proyectos/agenciadeviajes.png',
         description: "Realizado con Node, Express y Sequelize",
-        github: 'https://github.com/luxho-lopez/agenciaviajes',
+        github: 'https://agenciaviajes-hflk.onrender.com/',
     },
     {
         id: 3,
